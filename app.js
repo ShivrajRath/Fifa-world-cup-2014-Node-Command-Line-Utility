@@ -1,3 +1,4 @@
+// Creating phantom webpage
 var page = require('webpage').create(),
     server = "",
     data = "";
@@ -11,7 +12,6 @@ openPage();
 /**
  * Sets the server path to fetch the results
  */
-
 function bootstrap() {
     switch (true) {
         case /matches/.test(command):
@@ -42,7 +42,7 @@ function bootstrap() {
             break;
         default:
             {
-                console.log("Sorry, this command could not be recognized");
+                console.log("Sorry, this command could not be recognized. Please try 'fifa14 -h'");
                 phantom.exit();
             }
     }

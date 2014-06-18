@@ -1,6 +1,6 @@
 {
   "name": "fifa14",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is a simple npm based command line utility to keep you quickly updated with FIFA world cup 2014 score",
   "main": "fifa14.js",
   "dependencies": {
@@ -10,9 +10,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=0.10"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ShivrajRath/Fifa-world-cup-2014-Node-Command-Line-Utility.git"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "fifa14": "./fifa14.js"
   },
   "keywords": [
     "Fifa",
