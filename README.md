@@ -3,15 +3,15 @@
 * Install Node JS: http://nodejs.org/download/
 
 * Install the package globally
-sudo npm install -g fifa14
+**sudo npm install -g fifa14**
 
 * Run the command from your terminal
-fifa14 matches
-fifa14 today
-fifa14 current
-fifa14 USA
+	* fifa14 matches
+	* fifa14 today
+	* fifa14 current
+	* fifa14 USA
 
-** Supported Commands **
+**Supported Commands**
 
 Keyword   			| Explanation
 --------------------|-------------
@@ -20,9 +20,9 @@ today               | Today's matches
 current             | Returns the current match, if a match is happening, otherwise nothing
 *COUNTRY_CODE*      | Matches for any country, by entering their FIFA Code. E.x USA. Team codes at [http://www.fifa.com/worldcup/teams/](http://www.fifa.com/worldcup/teams/, "Fifa Team Code")
 
-TO-DO
+####TO-DO
 -------------
-* formatting the display
+* Formatting the display
 
 **Feed from**
 http://worldcup.sfg.io
@@ -31,4 +31,4 @@ http://worldcup.sfg.io
 http://www.smashingmagazine.com/2014/02/12/build-cli-tool-nodejs-phantomjs/
 
 
-Author: [@shivrajrath](http://twitter.com/shivrajrath)
+Author: [@shivrajrath](http://twitter.com/shivrajrath, "Twitter")
