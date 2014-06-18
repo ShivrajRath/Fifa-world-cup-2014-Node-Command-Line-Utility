@@ -1,5 +1,7 @@
 ##Steps to use this
 
+* Install Node JS: http://nodejs.org/download/
+
 * Install the package globally
 sudo npm install -g fifa14
 
