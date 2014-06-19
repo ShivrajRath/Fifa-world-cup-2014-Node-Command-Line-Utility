@@ -2,6 +2,8 @@
 
 //Extracting user arguments
 
+console.log("\n\nLoading result .... \n\n");
+
 var userArguments = process.argv.slice(2);
 
 if (userArguments.length > 1) {
