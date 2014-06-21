@@ -83,8 +83,8 @@ function processQuery(matches) {
                 conStr = "Match No: " + match.match_number + " " + new Date(match.datetime) + " \t " + "Teams yet to be decided";
             } else if (match.status === "future") {
                 conStr = "Match No: " + match.match_number + " " + new Date(match.datetime) + " \t " + match.home_team.country + " vs " + match.away_team.country + "\t To be played";
-            } else if (match.status === "completed") {
-                conStr = "Match No: " + match.match_number + " " + new Date(match.datetime) + " \t " + match.home_team.country + "(" + match.home_team.goals + ")" + " vs " + match.away_team.country + "(" + match.away_team.goals + ")" + "\t Winner: " + match.winner;
+            } else if (match.status === "completed" || match.status === "in progress") {
+                conStr = "Match No: " + match.match_number + " " + new Date(match.datetime) + " \t " + match.home_team.country + "(" + match.home_team.goals + ")" + " vs " + match.away_team.country + "(" + match.away_team.goals + ")" + "\t Winner: " + (match.winner === null? 'In Progress' : match.winner)  ;
             }
             console.log(conStr);
         }
